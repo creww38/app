@@ -3,14 +3,14 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
 import { Ionicons } from '@expo/vector-icons';
 
-// Screens
-import DashboardScreen from '../screens/DashboardScreen';
-import ScanScreen from '../screens/ScanScreen';
-import DiscoverScreen from '../screens/DiscoverScreen';
-import SearchScreen from '../screens/SearchScreen';
-import CreateScreen from '../screens/CreateScreen';
-import RulesScreen from '../screens/RulesScreen';
-import ProfileScreen from '../screens/ProfileScreen';
+// Screens - imported from app/(tabs) directory
+import DashboardScreen from '../app/(tabs)/dashboardscreen';
+import ScanScreen from '../app/(tabs)/scanscreen';
+import DiscoverScreen from '../app/(tabs)/discoverscreen';
+import SearchScreen from '../app/(tabs)/searchscreen';
+import CreateScreen from '../app/(tabs)/createscreen';
+import RulesScreen from '../app/(tabs)/rulesscreen';
+import ProfileScreen from '../app/(tabs)/profilescreen';
 
 // Components
 import BottomTabBar from '../components/BottomTabBar';
